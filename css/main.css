@@ -28,6 +28,7 @@ main > .wrapper-words > .row > .column {
   justify-content: center;
   align-items: center;
   font-size: 2em;
+  transition: background-color 0.5s ease-out, border-color 0.5s ease-out;
 }
 main > .wrapper-words > .row > .column.gray {
   background-color: var(--color-gray);

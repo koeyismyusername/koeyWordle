@@ -33,6 +33,7 @@ footer > .wrapper > .row > .column {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.5s ease-out;
 }
 footer > .wrapper > .row > .column.gray {
   background-color: var(--color-lightgray);
